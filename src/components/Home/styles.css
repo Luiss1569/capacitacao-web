@@ -2,6 +2,7 @@
   padding: 0;
   height: 700px;
   display: flex;
+  align-items: center;
 }
 
 .home .information {
