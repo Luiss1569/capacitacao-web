@@ -52,15 +52,20 @@
 
   .about .image {
     width: 260rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
   }
 
   .about .buttons-mobile {
     display: none;
   }
 
-  .about.buttons-pc {
+  .about .buttons-pc {
     display: flex;
-    gap: 92px;
+    gap: 9.2rem;
   }
 
   .about .content h2 {

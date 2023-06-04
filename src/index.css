@@ -4,7 +4,7 @@
   --clr-white: #eef2f5;
 
   font-family: Poppins, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 70%;
   line-height: 18px;
   color: var(--clr-black);
 }
@@ -12,5 +12,4 @@
 body {
   background-color: var(--clr-white);
   margin: 0;
-  font-size: 40%;
 }
