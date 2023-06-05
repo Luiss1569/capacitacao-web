@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+  "homepage": "https://luiss1569.github.io/capacitacao-web",
+  "repository": "https://github.com/luiss1569/capacitacao-web",
+  "author": "Luis Ricardo Santos <rcsrcs1569@gmail.com>",  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
