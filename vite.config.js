@@ -9,6 +9,5 @@ export default ({ mode }) => {
   return defineConfig({
     plugins: [react()],
     base: process.env.NODE_ENV === "production" ? "/capacitacao-web/" : "/",
-    envDir: "./env",
   });
 };
