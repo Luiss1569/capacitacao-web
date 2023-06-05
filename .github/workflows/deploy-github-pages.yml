@@ -42,10 +42,10 @@ jobs:
         run: npm run build
 
       - name: "Upload artifact"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-pages-artifact@v1
         with:
           name: dist
-          path: dist
+          path: ./dist
 
       - name: Deploy to GitHub Pages
         id: deploy
