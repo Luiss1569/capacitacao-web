@@ -9,6 +9,12 @@
 .skills .container .skill {
   width: 72px;
   height: 72px;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.skills .container .skill:hover {
+  transform: scale(1.2);
 }
 
 @media screen and (min-width: 1024px) {

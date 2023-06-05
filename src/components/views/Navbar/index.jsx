@@ -1,15 +1,33 @@
 import "./styles.css";
 
-function Navbar() {
-  const links = [
-    "home",
-    "sobre",
-    "projetos",
-    "serviços",
-    "crescimentos",
-    "contato",
-  ];
+const navs = [
+  {
+    name: "home",
+    link: "#home",
+  },
+  {
+    name: "sobre",
+    link: "#about",
+  },
+  {
+    name: "projetos",
+    link: "#projects",
+  },
+  {
+    name: "serviços",
+    link: "#services",
+  },
+  {
+    name: "crescimentos",
+    link: "#skills",
+  },
+  {
+    name: "contato",
+    link: "#contact",
+  },
+];
 
+function Navbar() {
   return (
     <navbar className="navbar">
       <div className="logo">
@@ -17,9 +35,9 @@ function Navbar() {
       </div>
 
       <div className="links">
-        {links.map((link) => (
-          <a key={link} href={`#${link}`}>
-            {link}
+        {navs.map((nav) => (
+          <a key={nav.link} href={nav.link}>
+            {nav.name}
           </a>
         ))}
       </div>

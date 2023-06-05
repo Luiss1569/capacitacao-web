@@ -15,13 +15,13 @@ function Contact() {
           <span className="icon-wrapper">
             <i className="fa-solid fa-envelope fa-lg"></i>
           </span>
-          <a href="mailto:contato@email.com">contato@email.com</a>
+          <a href="mailto:luisricardo0636@gmail.com">luisricardo0636@gmail.com</a>
         </li>
         <li>
           <span className="icon-wrapper">
             <i className="fa-brands fa-instagram fa-lg"></i>
           </span>
-          <a href="http://instagram.com/fulanadetal">@FulanaDeTal</a>
+          <a href="http://instagram.com/fulanadetal">@luisricar_do</a>
         </li>
       </ul>
       <cite>May the force be with you!</cite>
