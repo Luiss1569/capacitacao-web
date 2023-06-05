@@ -1,0 +1,16 @@
+.services .container {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .services > div {
+    flex-basis: 50%;
+  }
+
+  .services .service {
+    justify-content: start;
+    height: 64px;
+    max-width: 320px;
+  }
+}

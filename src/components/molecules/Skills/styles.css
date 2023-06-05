@@ -1,0 +1,22 @@
+.skills .container {
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  width: 100%;
+}
+
+.skills .container .skill {
+  width: 72px;
+  height: 72px;
+}
+
+@media screen and (min-width: 1024px) {
+  .skills > div {
+    flex-basis: 50%;
+  }
+
+  .skills .container {
+    max-width: 32rem;
+  }
+}

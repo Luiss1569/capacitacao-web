@@ -1,0 +1,44 @@
+.technology {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.technology .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+  letter-spacing: 0.02em;
+}
+
+.technology .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: fit-content;
+}
+
+.technology .container :is(.service, .skill) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: var(--clr-primary);
+  border-radius: 3px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+  .technology {
+    flex-direction: row;
+  }
+}

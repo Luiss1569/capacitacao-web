@@ -1,6 +1,6 @@
 import "./styles.css";
-import ImgDarth from "../../assets/img/darth-full.png";
-import Button from "../atoms/Button";
+import ImgDarth from "../../../assets/img/darth-full.png";
+import Button from "../../atoms/Button";
 
 function Home() {
   return (

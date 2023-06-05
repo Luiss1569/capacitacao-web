@@ -1,10 +1,10 @@
 import "./styles.css";
-import Card from "../atoms/Card";
+import Card from "../../atoms/Card";
 
-import Img1 from "../../assets/img/cards/img-1.jpg";
-import Img2 from "../../assets/img/cards/img-2.jpg";
-import Img3 from "../../assets/img/cards/img-3.jpg";
-import Button from "../atoms/Button";
+import Img1 from "../../../assets/img/cards/img-1.jpg";
+import Img2 from "../../../assets/img/cards/img-2.jpg";
+import Img3 from "../../../assets/img/cards/img-3.jpg";
+import Button from "../../atoms/Button";
 
 function Projects() {
   const projects = [

@@ -1,7 +1,7 @@
 import "./styles.css";
-import Button from "../atoms/Button";
+import Button from "../../atoms/Button";
 
-import ImgSobre from "./../../assets/img/sobre-img.jpg";
+import ImgSobre from "./../../../assets/img/sobre-img.jpg";
 
 function About() {
   return (

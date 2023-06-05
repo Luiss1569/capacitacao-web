@@ -1,9 +1,10 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/views/Navbar";
 
 import "./App.css";
-import Home from "./components/Home";
-import About from "./components/About";
-import Projects from "./components/Projects";
+import Home from "./components/views/Home";
+import About from "./components/views/About";
+import Projects from "./components/views/Projects";
+import Technology from "./components/views/Tecnology";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Technology />
     </div>
   );
 }
